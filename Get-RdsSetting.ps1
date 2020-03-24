@@ -60,7 +60,7 @@ $FailedUsersFile = $region + "_FailedUsers.csv"
 $ResultsFile = $region + "_Results.txt"
 $SearchOU = "OU=$Region,OU=PRD,OU=User Accounts,DC=acompany,DC=com"
 
-Set-Location "C:\Users\admin-pho\RDPLog"
+Set-Location "C:\Users\Patrick\Documents\Scripts\Get-RdsSetting"
 
 $users = get-aduser -Filter * -SearchBase $SearchOU
 
