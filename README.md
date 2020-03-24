@@ -1,6 +1,6 @@
 # Get-RdsSetting
 
-I had an request from a client to report on the number fo users that had the 
+I had an request from a client to report on the number of users that had the 
 "Deny this user permissions to log on to Remote Desktop Session Host server" setting
 enabled as they suspected it was causing an issue launching some XenApp applications.
 
