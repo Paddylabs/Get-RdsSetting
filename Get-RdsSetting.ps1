@@ -85,11 +85,11 @@ Foreach ($user in $Users) {
 
 }
 
-Catch {
+    Catch {
 
-    $FailedUser = Get-ADUser $user.DistinguishedName
-    $FailedUser | Export-Csv $FailedUsersFile -Append -NoTypeInformation
-    $UsersFailed++
+        $FailedUser = Get-ADUser $user.DistinguishedName
+        $FailedUser | Export-Csv $FailedUsersFile -Append -NoTypeInformation
+        $UsersFailed++
 
 }
 
